@@ -1,0 +1,288 @@
+Content
+"Banked Bolsters Australian Pay-by-Bank Foothold With Waave Acquisition, Pymnts
+
+The Rundown:
+Banked has acquired Australian firm Waave, strengthening its presence in the Aussie market. Waave, which leverages open banking to offer a pay-by-bank option, had recently raised 4.7m in seed funding.
+Takeaway:
+Its still very early days for A2Apay-by-bank in Australia—really early. According to the latest Worldpay Global Payments report, A2A e-commerce transactions make up just 4 of wallet share. In many ways, this looks like an early land grab by Banked, who must clearly see a lot of potential in the Australian market for A2A payments. I get it. With the recently introduced laws enabling action initiation, or write access, to the Consumer Data Right CDR—after nearly three years in Parliament—and the growing capabilities of Australias instant payment network, NPP, you can start to see the foundation being laid. The real challenge will likely be consumer adoption, as the infrastructure is shaping up well to support A2A payments. Australia has capped interchange fees, so credit card points dont have the same hold on consumers as they do in markets like the U.S.—they still matter, but not to the same extent. That said, my view is that the user experience, across the board, around granting account access needs significant improvement to get customers comfortable using it. Interestingly, I think the real momentum might come from the merchant side. As we saw with the rapid rise of BNPL in Australia, merchants are open to new payment methods—provided they either bring in new customers or reduce costs. 
+
+Plaid Introduces Pay-by-Bank for Billpay, Finovate
+
+The Rundown:
+Plaid has launched a pay-by-bank product in the U.S. for bill payments. It allows consumers to securely pay directly from their bank accounts without manual entry.
+Takeaway:
+Not even a week after my tongue-in-cheek comment that all open banking providers are payment companies — they just dont know it yet — Plaid makes its move, giving a push to their pay-by-bank product in the U.S. In all seriousness, it makes total sense theyre diving into this space. Billpay offers a clean slate where credit cards dont pose the usual seemingly insurmountable challenge, and it gives Plaid a chance to build some brand equity around their pay-by-bank solution. Whats also interesting is that they highlighted their risk engine, Signal, in the announcement. Real-time payments have always had hurdles around risk, so bundling this into the offering positions Plaid well as they continue inching toward becoming, dare I say it, a payments company. 
+
+Alipay sees overseas use of payment partner apps triple in 9M 2024, Asian Banking and Finance
+
+The Rundown:
+Alipay has seen a threefold increase in overseas usage of its payment partner apps in the first nine months of 2024, with a 142 rise in transactions using the PayNet DuitNow QR method. Spending on food and beverage surged by 80, attractions by 50, and transportation more than doubled with a 120 increase.
+Takeaway:
+Ive mentioned in previous issues of FR this year that the re-emergence of Chinese fintech is a theme flying under the radar. The narrative that Chinese fintech is dead is overstated. The rapid, ZIRP-fueled growth may be over, but giants like Alipay and Ant Financial remain huge players. With international travel rebounding and their continued expansion through other payment partners overseas, I wouldnt be surprised if the resurgence of Chinese fintech becomes a central theme of discussion next year. 
+
+Pockit to buy Monese, Finextra
+
+The Rundown:
+Pockit, a UK fintech focused on low-income customers, has agreed to acquire struggling mobile banking company Monese, with plans to invest up to 15m for integration and growth.
+Takeaway:
+This news comes just two weeks after HSBC wrote off its investment in Monese, following the companys 30.5m loss for 2022. Monese had a clear market but ultimately missed the mark in reaching its target customers. In many ways, this story contrasts with the broader trend of UK consumer fintech startups turning profitable this year. The UK consumer fintech market has increasingly become a tale of haves and have-nots. Whats more surprising is that Pockit saw residual value here. Perhaps the tech, the talent, or even the customer base though Im skeptical of the latter drew their interest. Itll be interesting to see how they plan to invest up to 15m for integration and growth post-acquisition. 
+
+HubSpot to Acquire B2B Billing Management and CPQ Solution, Cacheflow, Yahoo News
+
+The Rundown:
+HubSpot has announced its acquisition of Cacheflow, a B2B billing management and CPQ solution, to enhance its Commerce Hub offerings. This acquisition aims to streamline subscription billing and quote-to-cash processes, allowing businesses to close deals more efficiently and collect revenue faster.
+Takeaway:
+Ive covered a few fundraises in the billing management space this year, so this move is no surprise. The segment continues to attract attention as the growing complexity around pricing models drives both investors and acquirers to take notice. Ill admit—Im bullish on this space. Alongside rising complexity, were seeing the emergence of new pricing models e.g., sell work, not software, making specialised billing software that sits alongside PSPs even more common. My prediction? Expect more investment to flow into this segment and more opportunistic acquisitions by incumbents. 
+
+Health insurtech startup Qantev raises 30 million to outperform LLMs with small AI models, Techcrunch
+
+The Rundown:
+Health insurtech startup Qantev has raised 30m in its Series B funding round to enhance its AI-driven claims management software for health insurance, addressing challenges faced by providers due to chronic diseases and an ageing population.
+Takeaway:
+ AI x healthcare x fintech is clearly a winning formula for pulling in 30m these days. All jokes aside, claims management across insurance remains a huge opportunity, and its clear that AI will continue playing a pivotal role in driving cost reductions. An interesting question is whether incumbents will dominate because AI is more of a feature than a standalone product or if new players will fully reimagine the claims process from AI-first principles and crack this classically challenging segment open. 
+
+Numeric grabs 28M Series A to automate accounting using AI, Techcrunch
+
+The Rundown:
+Numeric, a startup focused on streamlining accounting processes, has raised 28m in a Series A round led by Menlo Ventures following a significant revenue increase. The software automates data aggregation and flux analysis using AI, helping accounting teams save time on month-end closings by explaining variances in financial records.
+Takeaway:
+This is a fascinating space within the office of the CFO category, tackling a long-standing challenge that tech has yet to solve fully—how to make closing the books faster and easier for finance teams. AI seems perfectly suited to this task, potentially acting as a co-pilot for accountants during the closing process. As GenAI continues to improve rapidly, this could be one of the few areas where a co-pilot truly streamlines one of the most time-consuming aspects of accounting. Its definitely a niche to watch in this segment. Welcome Jenson Huang, BG2 Its not a fintech-related podcast, but its an absolute banger. In this episode of BG2, NVIDIA CEO Jensen Huang joins Brad Gerstner for a deep dive into everything from scaling intelligence toward AGI to the acceleration of machine learning and NVIDIAs competitive edge. They also dig into the importance of inference vs. training, the future of AI, and how its reshaping industries and the future of work. If youre looking for a podcast to catch you up on where GenAI is right now, this is the one you dont want to miss. Two Decades of 3-D Secure: Can Strong Customer Authentication Succeed in the US and Unregulated Markets? Payments on Fire On this episode of Payments on Fire, Dewald Nolte from Entersekt and Amandeep Batra from Stripe dive into the challenges and potential of the 3-D Secure protocol in boosting online payment security. If youre a payments nerd, this ones right up your alley."
+"HSBC launches embedded finance venture, Finexta
+
+The Rundown:
+HSBC has launched SemFi, a joint venture with Tradeshift, to provide embedded finance solutions for businesses, beginning in the UK. The venture will offer SME suppliers access to digital invoice financing and enhanced spend management through HSBCs virtual card solutions, integrating financial services within e-commerce platforms.
+Takeaway:
+ You know embedded fintech is hot when a bank jumps in. Well, maybe lukewarm is more accurate, considering most embedded players struggles over the past year. But in all seriousness, HSBCs entry into embedded fintech even through a partnership is a move I didnt see coming. I thought that wave had passed. Those whove been in fintech long enough will recall the first wave of incumbent banks like Santander trying to build platforms for embedded offerings. This seems like a more nuanced play, with a sharper focus on a targeted B2B segment. As we all know, when the rubber hits the road, banks tend to either go too far out on the risk curve see, for example, the partner bank issues that have been grabbing headlines recently or play it too safe. Itll be interesting to see if this partnered approach gives HSBC the buffer it needs to find the right balance. 
+
+Starling Bank fined 29m for financial crime failings, Reuters
+
+The Rundown:
+Starling Bank has been fined 29m by the Financial Conduct Authority for failing to maintain adequate anti-money laundering controls and sanctions screening systems, allowing the opening of over 54,000 accounts for high-risk customers since 2021.
+Takeaway:
+ Ouch. While its not as hefty as some of the fines weve seen previously for banks nowhere near HSBCs 1.9b fine back in 2012, its definitely not the kind of news Starling Bank wanted—especially with an IPO reportedly on the horizon. As Ive pointed out in past issues of FR, running a compliance program with zero failures is nearly impossible—as proven by the fact that almost every major bank globally has been fined at some point. As the fintech space matures, regulators are keeping a close eye more so than ever!, and this fine is a reminder that even the most innovative players arent immune to compliance challenges. 
+
+Facebook owner Meta forms data-sharing pact with UK banks to counter scams, CNBC
+
+The Rundown:
+Meta is collaborating with two major UK banks, NatWest and Metro Bank, to establish an information-sharing agreement aimed at combating fraud. The initiative, part of Metas Fraud Intelligence Reciprocal Exchange FIRE, has already enabled the removal of 20,000 scam accounts linked to concert ticket fraud.
+Takeaway:
+This is an interesting move from Meta. One angle here could be the growing pressure from new scam reimbursement laws that require companies to be more vigilant about fraudulent transactions. For instance, new UK legislation requires customers to be reimbursed up to 85,000 within five days, with liability shared between sending and receiving PSPs. Although Meta isnt directly impacted by these regulations, as a platform where scammers frequently operate, its likely taking action to avoid getting caught in the legislative crossfire or risk having PSPs cut off transactions on its platforms. On the flip side, banks probably view this as an opportunity to collect fresh transaction data at the source. This move upstream into fraud detection is worth watching, as it could signal a broader shift in how companies are positioning themselves in the fight against fraud. 
+
+Mastercard to buy Minna Technologies, Payments Drive
+
+The Rundown:
+Mastercard has announced its acquisition of Minna Technologies, a Swedish company specialising in subscription management. The acquisition aims to create a central hub for customers to manage their subscriptions and enhance their experience.
+Takeaway:
+ Its been a busy few months for Mastercards corporate development team. You might remember their 2.65b acquisition of threat intelligence firm Recorded Future last month, and now theyve snapped up Mina. So, whats the strategy here? As Ive noted in previous FR issues, card schemes are diving deeper into adjacent markets as they hunt for new revenue streams. The days of coasting on rising online transactions and the global shift to digital payments are behind them. Like the Recorded Future deal, this acquisition adds another product to the Mastercard sales toolkit, driving that sweet expansion revenue. Kaching, upsell! The real question is: how far will Mastercard go beyond its core? Is this the edge, or will they keep exploring more adjacencies? My bet is theres still a lot more to explore before the public markets push them back to their core business. 
+
+Bud Financial launches agentic banking tool to revolutionise consumer finance management, Fintech Global
+
+The Rundown:
+Bud Financial has launched an agentic banking tool to help consumers optimise their finances, enabling automated management of accounts and preventing overdraft fees.
+Takeaway:
+ One of my long-standing beliefs is that every Open Banking startup is a payments company—they just dont know it yet. Simply selling access to data pipes isnt a sustainable model at least for venture-backed companies, especially in regulatory-driven Open Banking markets. Many have already pivoted toward the A2Apay-by-bank space to ride that wave. Now, GenAI seems to be opening up a new monetisation path for Open Banking players. Itll be interesting to see whether data providers or data ingestion platforms end up serving the GenAI needs of companies. My guess? Its the latter. 
+
+Payment unicorn Zepz raises 267 million from World Bank, Accel and TCV, Techcabal
+
+The Rundown:
+Zepz, the parent company of World Remit and Sendwave, has raised 267m from investors, including Accel and the International Financial Corporation, aiming to expand its operations across Africa, where it currently serves over 150 countries.
+Takeaway:
+ Cross-border money movement in Africa is big business. Traditionally, most have viewed it as a north-south opportunity 
+100b in 2022; the real growth is happening in intra-Africa transfers, currently valued at 20b. This massive round likely relieves some pressure on Zepz after it paused its IPO plans and made significant layoffs in 2023. With two strong brands, WorldRemit and Sendwave, itll be interesting to see how they continue to scale in a market thats only getting more competitive but also price-sensitive. 
+
+Rogo, an AI startup focused on finance, raised its 18.5 million Series A, Yahoo Finance
+
+The Rundown:
+Rogo last week announced that it raised 18.5m Series A round led by Khosla Ventures to develop an AI platform for finance that aims to streamline workflows and reduce overwork for junior bankers.
+Takeaway:
+ The AI co-pilot trend is still running hot, and Rogo is targeting Wall Street analysts. The GitHub co-pilot for X model continues to dominate fintech products, and Rogos AI promises to take care of the grunt work so analysts can focus on the real value-add. But Rogo isnt playing in an empty field. Banks are jumping in, too. JPMorgan recently launched its own AI-powered research analyst chatbot, signalling that the big players are ramping up their AI efforts. Bloomberg has also rolled out its first generative AI tool on the Bloomberg Terminal, aiming to automate research tasks and further tighten its grip on the analyst workflow. With established players entering the fray, the competition to stand out especially for a startup in this space is becoming increasingly fierce. The Fintech OG Series Season Two: Jason Gardner and Ken Lin, The Week In Fintech In this episode of the excellent This Week in Fintech podcast, Jason Gardner and Ken Lin explore the highs and lows of building Marqeta and Credit Karma. They discuss overcoming regulatory hurdles, navigating industry challenges, and forming unexpected partnerships that helped shape their companies. As always, the podcast is well worth a listen. 10 Years of Atom Bank with Mark Mullens, 11FS In this episode of Fintech Insider Insights, Kate Moody chats with Mark Mullen, CEO and Co-Founder of Atom Bank, one of Britains OG neobanks. Launched in 2016, Atom recently reported an impressive 27M operating profit. Mark dives into building a trusted brand, the banks future plans, and their famous 4-day work week. A must-listen for your podcast lineup this week!"
+"For the uninitiated, Australia has a mandatory retirement savings system called superannuation referred to as simply super locally. Similar in intent to a 401k in the US but very different in execution, the system requires employers to contribute a percentage of an employees earnings to their super account. This has led to a massive pool of funds—3.9 trillion as of March 2024
+—managed across various super funds. Spaceship was once a prominent new entrant, but like many others that followed, it faced challenges as the superannuation market in Australia has proven tough to disrupt. The reality is many fintech startups looking to gain a foothold in the super industry have struggled to unseat the entrenched industry super funds. Besides the giant pot of gold at the end of the superannuation rainbow, I wonder what eToro sees here. More broadly, itll be fascinating to see what eToro does with Spaceship to make the sticker price on the deal although small make sense. 
+
+Adyen to Include Klarna BNPL Offering on In-Store Terminals, Pymnts
+
+The Rundown:
+Klarna is partnering with Adyen to integrate its BNPL option into Adyens physical payment terminals across North America, Europe, and Australia. Starting with a pilot programme, this initiative aims to make flexible payment options more accessible at physical checkouts.
+Takeaway:
+ For those who remember, this is how many BNPL players first gained traction. Afterpays original go-to-market strategy involved working directly with retailers at the point of sale, and Squares acquisition of Afterpay aimed to supercharge that kind of distribution magic to expand its reach. Similarly, Klarna has long been focused on the point of sale, so this isnt breaking new ground in the BNPL world. Whats more interesting here is Adyen stepping up its in-person payments game—likely to take on the growing ranks of PoS players in Europe and beyond. If youve been following funding news, youve probably noticed the steady influx of capital into this space. Alongside the Klarna announcement, Adyen unveiled a new, flashy drum roll, please non-all-white PoS terminal. It seems innovation is happening in PoS—at least when it comes to terminal colour. 
+
+Bunq moves into stock trading, targeting digital nomads, Tech.eu
+
+The Rundown:
+Bunq, the Amsterdam-based challenger bank, is launching a stock trading feature called Stocks, aimed at digital nomads in Europe, starting with the Netherlands and France. The service will offer free trades for the first three months and access to popular US and EU stocks, with plans to expand to the UK pending regulatory approval.
+Takeaway:
+ Its hard to imagine the EU retail stock trading space getting any more crowded. There must be some serious pent-up demand for trading stocks in the EU, but the sheer number of competitors is getting a bit ridiculous. Just last week, Revolut announced theyd be spinning out their stock product into a stand-alone offering called Revolut Invest. And dont forget, Robinhood also recently set up shop in the UK. Im sure many of these players plan to land with a stock trading product and then expand into a more comprehensive investing platform. Itll be interesting to see who can stick around long enough to reach that promised land. 
+
+PNC and Plaid ink data sharing agreement, Finextra
+
+The Rundown:
+PNC Financial Services Group and Plaid have formed a data-sharing agreement that allows PNC customers to securely connect and share financial data with third-party applications via Plaid.
+Takeaway:
+ In the world of open banking, players have tended to either play on the compete or comply side of the ledger. We tend to think of Plaid, MX, Truelayer et al. as being all that exists in the world of open banking, but there are also all the consultants and integrators who sit on the comply side and work with banks in regulated open banking markets. As all you fintech nerds know, the US is slowly and I imagine it will be very slowly working toward a regulated open banking market. As that day approaches, banks will need to shift into overdrive to comply. Like many others, Plaid is positioning itself as a key player in helping banks open up their data once Dodd-Frank Section 1033 is finalised. Although its under-discussed, expect this to be the next wave of activity as open banking in the US as opening banking startups look to partner with the 4,500 banks that will need to comply. 
+
+MercadoLibres fintech arm applies for banking license in Mexico, Yahoo Finance
+
+The Rundown:
+Mercadolibres fintech arm, Mercado Pago, has applied for a banking licence in Mexico to expand its financial services and aim to become the largest digital bank in the country. The licence would enable Mercado Pago to offer savings and checking accounts, loans, and mortgages, enhancing its current offerings as the second-largest digital wallet in Mexico.
+Takeaway:
+  In some ways, this move is the equivalent of a fintech Rorschach test—what you see depends on your perspective on the role of banking, who should own that customer relationship and importantly where in the world you are. In many markets, that relationship might be with a bank, a telco e.g., in many parts of Africa, or even an e-commerce-focused company think Ant Financial in China. Nik Milanovics Tweet summarises it well:
+For the Americans here - this is as if Amazon or Shopify applied to be a bank. Which Walmart did 15 years ago It may seem odd to Americans, but in many parts of the world, this is actually quite the norm. 
+
+Digital debt collector worth 350m after big money raise, Australian Financial Review
+
+The Rundown:
+InDebted, the Australian digital debt collection company, announced a 60m funding round, achieving a valuation of 350m. The round was led by Airtree, with participation from the Australian Retirement Trust and Premier Capital Partners.
+Takeaway:
+ Its fascinating to see a fintech startup thriving in such a challenging macro environment. Many have struggled over the past year and a half as the ZIRP era ended and investors tightened their chequebooks. Meanwhile, consumers have been hit by rising interest rates and increased cost-of-living pressures. This has led to an uptick in business for InDebted. According to the article, the digital debt collector has experienced 110 annual growth since its founding in 2016, with 38m in revenue this year and 48m in ARR. A solid reminder that, in the world of fintech and startups in general, timing is everything. 
+
+Health insurance startup Alan reaches 4.5B valuation with new 193M funding round, Techcrunch
+
+The Rundown:
+French health insurance startup Alan last week announced theyd closed a 193m Series F funding round led by Belgian bank Belfius, raising its valuation to 4.5b. The partnership with Belfius will help Alan expand its customer base in Belgium, adding to its over 650,000 covered individuals and aiming for 450m in annual recurring revenue.
+Takeaway:
+ Consumer insurtech is back! Just as challenger banks have gone from heroes to pariahs and back, consumer-facing insurtech startups are experiencing a similar resurgence. Once dismissed as a failed experiment that highlighted the importance of broker channels, consumer insurtech is now regaining momentum. Funding is flowing back into the segment
+—Q2 of this year saw insurtech startups raise 1.27 billion, the highest level since Q1 2023—and companies like Alan are benefiting from this renewed interest. The real question is whether this is just a short-term bounce, driven partly by rising premiums from incumbents, or the beginning of a sustained trend. Financial Plumbing with Patrick McKenzie and Erik Torenberg, Upstream If youre a Patio11 fan and a fintech nerd, this podcast is a must-listen. On this episode of the Upstream Podcast, he chats with Erik Torenberg about the intricacies of the banking system — covering everything from bank customer service referencing his banger of a piece, Seeing Like a Bank
+ to the challenges of KYCAML. Definitely add this one to your podcast playlist for the week. How Branch Confidently Lends to People Banks Wont Touch — Matt Flannery Founder, CEO of Branch, Crafted Podcast While the discussion is framed around how Branch leverages AI, what stood out to me was Matt Flannerys story of starting the company and the importance of timing. Launching Branch when financial inclusion was the hot topic in African markets and raising funds during the peak of ZIRP made for a fascinating listen on how it all began for the company. Its another one to add to your podcast rotation this week."
+"Addressing common objections upfront Stripe Personalising the onboarding process Corefy Simplifying complex offerings PayPal If you want to read more, there is a whole research paper on 30 Tactics FinTech Unicorns Use to Convert Better, made by Goodface FinTech Design Agency. Its a super interesting read; take a look now. Download The 57-page PDF Now Walmart, Fiserv team to offer real-time payments, Payments Dive
+
+Brex Launches Embedded Payments Solutions for B2B Software Vendors, Pymnts
+
+The Rundown:
+Walmart is partnering with Fiserv to enable consumers to make real-time payments directly from their bank accounts for online purchases, aiming to reduce reliance on credit cards. The new service, set to launch next year, will utilise U.S. real-time payment rails, offering faster transaction settlement than traditional ACH payments.
+Takeaway:
+More activity in the A2Apay-by-bank space is on the horizon. While this service wont launch until next year, the real test will be consumer uptake. The article notes that Walmart has been offering pay-by-bank services since June, but via ACH—which lacks the speed and efficiency of real-time payment rails. In theory, this shift will be like moving from dial-up to broadband and could be the exposure A2Apay-by-bank needs in the U.S. Despite concerns about consumers reluctance to abandon credit cards, retailers are under greater pressure to expand payment options and push customers toward lower-cost alternatives. Its not a sea change yet, but as more major retailers adopt these solutions, it could signal a coming wave for A2A payments. 
+
+Monzo brings monthly payments to Apple Pay purchases, Finextra
+
+The Rundown:
+Last week, Brex announced its embedded finance offering. Brex Embedded allows businesses to integrate Brex virtual cards into their B2B software, enabling global payments and transaction reconciliation without the complexities of managing credit and fraud risks. Tailored for procure-to-pay and travel workflows, the solution helps customers quickly unlock new revenue streams and improve operational efficiency.
+Takeaway:
+ This is a super interesting move from Brex. Expanding into the embedded finance space feels like a strategic power play as they hunt for new growth channels. That said, every fintech dreams of taking the infrastructure theyve built though few actually build any meaningful part of their stack themselves   and turning it into an embedded offering  la AWS. But the road to success here is littered with failures. What might set Brex apart is its existing customer base, which likely includes tech companies eager to explore embedded fintech solutions or move to a new partner within their products. A quick look at the logos on Brexs website suggests they already have some strong leads for the Brex Embedded team to pursue. Theres no doubt its a bold move from them. Time will tell if its inspired or foolhardy. 
+
+JPMorgan could take over Goldmans Apple Card business, Techcrunch
+
+The Rundown:
+Monzo Flex customers with iOS 18 and iPadOS 18 can now spread payments over multiple months directly through Apple Pay at checkout. This feature enhances convenience by allowing users to understand costs and choose repayment options before purchase. Monzo is the first UK bank to offer this, as Apple shifts to third-party partnerships for instalment loans.
+Takeaway:
+ Theres no need to harp on the numbers; we all know BNPL is still a fast-growing payment segment. Now that Apple has shelved its own BNPL product and returned to being a platform provider—at least in the BNPL space—players like Monzo integrating natively on Apple devices could give the segment even more momentum, much like how Apple Pay accelerated tap-to-pay adoption in many markets. 
+
+Fintech Giant Revolut Said to Be Planning Stablecoin, Coindesk
+
+The Rundown:
+JPMorgan Chase is in discussions to acquire Goldman Sachs Apple Card business, which Goldman has managed since its launch in 2019. Goldman is moving away from consumer banking, viewing the Apple Cards 17b programme as a distraction, and has approached other lenders for partnerships, but challenges arose due to the cards high loss rate.
+Takeaway:
+ The Apple Card has truly become a golden albatross for Goldman Sachs. What was once seen as the partnership in the partner banking space has quickly become one of the most difficult customer portfolios to offload. Based on reports, it looks like Goldman will end up taking a big financial hit on this. What Im curious about is Apples next move. While its high likely that someone will take over the programme, the terms and how restrictive they become remain open questions. This, in turn, could raises questions about the future of the Apple Card itself. I think it could be an interesting story to continue to monitor. 
+
+Credit card fintech Yonder raises 23.4m as it eyes EU expansion, Sifted
+
+The Rundown:
+According to reports, Revolut is reportedly planning to issue its own stablecoin as part of its strategy to expand crypto offerings.
+Takeaway:
+ Revoluts stablecoin move may not be groundbreaking, but its certainly a smart play. Following PayPals lead and joining other European banks, theyll likely peg it to the Euro rather than the Dollar — a logical choice, given Europes their biggest market and the new MiCA regulations provide a clear path forward. Revolut isnt new to crypto, and with big names like BBVA and SocGen also exploring Euro stablecoins, theyre in good company. I think the big question here is:
+whats the end game for all these siloed stablecoins? Is it a winner-takes-all scenario, or will we see everyone carving out their own little niche stablecoin? And if its the latter, it raises another question—why bother in the first place? Without interoperability or broader use cases, its hard to see the long-term value beyond specific ecosystems. 
+
+Orb founders grew so frustrated dealing with billing as engineers at Asana, they built their own billing software, Techcrunch
+
+The Rundown:
+Yonder, a UK-based credit card fintech focusing on reward points, has raised 23.4m in a funding round, bringing its valuation to over 100m and preparing for European expansion. The company, founded in 2021, targets young professionals and expats with unique rewards like local experiences and has seen significant growth, now aiming for profitability.
+Takeaway:
+Consumer fintech is making a comeback. Not long ago, it was hard to find even one consumer fintech fundraising announcement, and now it seems like another company is securing the bag every week. Yonder has been grinding in a space many believed wouldnt produce a winner—especially in the consumer sphere. Specifically, most assumed that the battle for Gen Zs rising spending power was BNPLs to lose, as consumer credit cards were thought to be unappealing to that demographic. However, as the article notes, AMEX has seen a sharp rise in spending from Gen Z, now accounting for 33 of total spending on its cards. Consumer fintech is back; lets just hope this funding cycle isnt a dead-cat bounce, and that we see some real long-term brands emerge. 
+The Rundown:
+Last week, Orb announced it had raised 25m in a Series B funding round led by Mayfield, bringing its total funding to 44m. The platform supports usage-based pricing, addressing issues with legacy billing systems and enabling rapid pricing evolution for software companies.
+Takeaway:
+ Billing software isnt exactly what people wake up excited to work on in a startup, but its a vital artery in a companys financial health. Important, but not always inspiring. As youd expect, its a big business. For context, earlier this year Stripe mentioned that Stripe Billing manages hundreds of millions of subscriptions for more than 300,000 companies. But the real game now is about providing a solution that can handle complex metered billing, especially for AI infrastructure companies. Its no surprise that Orbs press release highlights customers like Vercel, Pinecone, and Perplexity. This is shaping up to be a fascinating battleground for players like Stripe, Adyen, and others. The basics of billing are easy to build, but the real challenge—and value—lies in handling edge cases, where specialist companies like Orb have an advantage. Its the classic long tail vs. power law battle—watching which approach wins out will be interesting. Stablecoins The Emerging Market Story, Castle Island Ventures  Visa A fascinating report on the world of stablecoins, packed with data and insights on whats happening in the space. Its one of the best deep dives from a data perspective Ive seen — definitely worth a read! Will Gaybrick on Capital Allocation, Org Design, AI, and Global Growth, Logan Bartlett Podcast In this episode of The Logan Bartlett Show, Will Gaybrick, President of Product and Business at Stripe, shares his career journey from studying Math at Harvard to becoming a software engineer and attending Yale Law, eventually landing at Stripe. Its a wide-ranging conversation that touches on a variety of topics beyond fintech, including capital allocation, organisational design, AI, and global expansion—a must-listen for all Stripe fanboys."
+"At Mercury, we believe your bank account should do more than hold your money. Translation: SMB-focused SaaS startups, take note—Mercury is expanding beyond banking into financial workflows. The battle for dominance in the business operations stack is heating up, with fintech players moving from wallets to full-on workflow management. Much like Shopify has ventured deeper into financial services, SMB neobanks are now eyeing the SaaS space to capture a larger share of the financial operations process. One of Mercurys major competitors, Ramp, has also been expanding aggressively into workflow adjacencies like procurement via acquisitions. The fintech vs. SaaS battle for SMB workflows is just getting started—watch this space. 
+
+Paylocity is acquiring corporate spend startup Airbase for 325M, Techcrunch
+
+The Rundown:
+Paylocity has announced its acquisition of corporate spend startup Airbase for 325m, pending regulatory approval and is expected to close within 30 to 60 days. Founded in 2017, Airbase offers software for spend management.
+Takeaway:
+ Speaking of SMB workflows, this is yet another acquisition in the SMB financial operations space. It is similar to Mercurys acquisition of Teal, as both are clearly about expanding deeper into the financial operations stack. The contrast lies in Paylocity being more on the SaaS side of the ledger, with this deal edging them closer to the fintech space by adding spend management to their product portfolio. Its interesting to see so much activity in this segment — another signal that were seeing a growing convergence of SaaS and fintech solutions in SMB operations. 
+
+Paylocity is acquiring corporate spend startup Airbase for 325M, Techcrunch
+
+The Rundown:
+Visa is set to launch a new A2A payment service in Europe, enabling users to make direct debits from their bank accounts with greater ease and security.
+Takeaway:
+  In previous issues, Ive discussed ad nauseam how Visa has been all over A2A — a rare example of a financial incumbent wed call Visa that, right? being ahead of the curve on what could one day pose an existential risk to their business. As much as the discussion around A2A in many developed card markets has been dismissive People will never switch over to A2Apay-by-bank. Its too clunky, theyll never give up their points, the reality is that several markets already have deep A2Apay by bank penetration — specifically Finland, Malaysia, The Netherlands, Nigeria, Norway, Poland, Sweden, and Thailand, where its the leading e-commerce payment method according to WorldPay. So, it makes total sense for the schemes to invest, at least as a hedge against the possibility that A2A could gain more traction over time in their marque markets. 
+
+Visas new A2A offering opens choice and security via direct bank transfers in the UK, Pymnts
+
+The Rundown:
+Lats week Ant Group launched Zhixiaobao, an AI-powered mobile app designed to simplify everyday tasks by connecting users to various services on Alipay, including meal orders, taxi hailing, and fitness advice. The app features specialised AI agents and is part of Ant Groups broader strategy to integrate AI into daily life
+Takeaway:
+ Yes, I know, another bot. But hear me out—this feels like a different approach compared to what were seeing from other fintechs. A big part of the story here is that Ant Group has built a sprawling ecosystem. Alipay offers payments, wealth management, lending, insurance, credit scoring, and remittance—and thats just the financial services. Theres also a suite of lifestyle services offered in app. So, having an AI agent to help users navigate all those offerings makes a lot of sense. My guess is that well see more of this approach in other multiproduct ecosystems soon. For example, I could easily see the likes of Revolut rolling out something similar across its portfolio of products. 
+
+Ant Group Launches AI-Powered Mobile App Zhixiaobao at 2024 INCLUSIONConference on the Bund, Businesswire
+
+The Rundown:
+Lloyds Bank has partnered with Cleareye.ai to enhance trade finance processes by using AI technology to automate and streamline the review of trade documents. The implementation of Cleareye.ais technology will use OCR, ML, and NLP to improve compliance checks and client efficiency.
+Takeaway:
+ I have to admit I got sucked in by the headline. My first thought was, Heres an interesting AI use case—trade finance! I wonder what theyre doing? Nah, turns out its not all that interesting. According to the article:
+the technology will use optical character recognition machine learning, and natural language processing algorithms to extract critical information from a range of trade finance documents Another great example of corporates being conservative with how they adopt AI. 
+
+Lloyds to use AI to automate trade finance checks, Finextra
+
+The Rundown:
+Cobre, a Colombia-based treasury platform, has raised 35m in Series B funding led by Oak HCFT to enhance its payment and treasury management services across Latin America.
+Takeaway:
+ Cobre looks like a super interesting company. According to the article:
+Cobre partners with financial institutions and opens accounts where its customers and their payees bank as transfers within the same bank are instantaneous, and keeps an internal ledger of the money movement. If a customer seeks to send money from their BBVA account to a payees Bancolombia account, for example, they send that amount to Cobres BBVA account. Cobre then immediately moves that amount from its own Bancolombia account to the payees account. Cobre is also able to complete instant cross-border payments in some 19 currencies, with customers also able to embed Cobre payments into their own apps and sites. It feels like a Moov for Colombia. Seems like a great concept in a market with lots of growth potential. Definitely one to watch. 
+
+Exclusive: Colombian real-time payments startup raises 35M Series B, Axios
+
+The Rundown:
+Ziina, a UAE-based fintech startup initially launched as a P2P payment app, has raised a 22m Series A funding round and has expanded its offerings to cater to 50,000 retail and business customers, mainly targeting SMEs with payment solutions and financial management tools.
+Takeaway:
+ According to the article, Ziina started as a peer-to-peer P2P payment app designed for splitting bills group dinners, rent, etc.. But like many fintechs, they saw the B2B payments opportunity and have since pivoted to include SME-focused financial services. Its an all too common story. The UAE fintech space is fast-growing, and while competition is heating up, its great to see companies like Ziina scaling up their solutions to support small businesses. As a side note, the article mentions that Ziina is also venturing into expense management with the upcoming launch of its card product, ZiiCard. Its always satisfying when a trend carries through an entire issue of FR. How Money Moves Podcast: All Things B2B Payments, with Brandon Lloyd of Forward, Bo Jiang of Lithic and Wade Arnold of Moov, The Week In Fintech If youre a payments nerd like me, this How Money Moves Podcast episode is a must-listen. Brandon Lloyd Forward, Bo Jiang Lithic, and Wade Arnold Moov dive deep into the evolution and challenges of B2B payments, touching on topics like infrastructure transformation, the complexity of embedded payments, and regulatory hurdles. The Booming Crypto Use Case Thats Happening Right Now, Odd Lots If youre a regular reader of FR, you know my view on stablecoins spoiler: theyve proven to be cryptos killer use case. In this episode of Odd Lots, Austin Campbell, an adjunct professor at Columbia Business School and founder of Zero Knowledge Consulting, dives into the real-world problems stablecoins are solving. Its definitely worth a listen to understand where stablecoins are gaining traction."
+"Buy now, pay later firm Klarna swings to first-half profit ahead of IPO, CNBC
+
+The Rundown:
+Klarna has reported a return to profit in the first half of 2024, achieving an adjusted operating profit of 673m USD66.1m Swedish krona, up from a loss the previous year, while revenue grew 27 to 13.3b USD1.2b krona.
+Takeaway:
+ Klarna flipped the switch in the first half of the year, moving solidly into the black. This shift isnt unique to Klarna; its a trend were seeing among several large consumer fintech startups, including Revolut, Monzo, and Nubank. A common thread in these turnarounds has been a recalibration of their operating structures. When you combine this with their strong acquisition flywheels, its no surprise that consumer is emerging as a major success story in the broader fintech segment. Klarnas focus on sustainable, profitable growth and leveraging AI to lower costs is clearly paying off. Expect to see this narrative repeated as the cost structure adjustments many companies have made over the past two years, combined with the operational efficiency boosts from AI, begin positively impacting the bottom lines of the big consumer fintech platforms in 2024. 
+
+Banking Circle launches the first bank-backed MiCA-compliant stablecoin, EURI, Banking Circle
+
+The Rundown:
+Banking Circle last week launched EURI, the first bank-backed stablecoin compliant with the EUs Markets in Crypto Assets Regulation MiCA
+Takeaway:
+ One of my more controversial but maybe not that controversial to all views on crypto is that the most successful use cases for crypto have been stablecoins. Having a currency that acts as a stable store of value on crypto rails has solved an enormous problem for such a volatile asset class. As a result, stablecoins have been everywhere in 2024 
+heres a taste of some of this years headlines. Unsurprisingly, with the success of Tether and Circles USDC, were starting to see the stablecoins denominated in other currencies. In Europe, with the development of MiCA which to many might be seen as a bit of narrative violation when it comes to the view that the EU regulates everything to death, expect to see more players release Euro-denominated stablecoins. 
+
+Lynch-backed Featurespace in talks about Visa takeover, Sky News
+
+The Rundown:
+Featurespace, a British fraud detection company, is reportedly in advanced discussions for a potential sale to Visa. The deal is expected to value Featurespace at more than 700m. Featurespace counts major clients like HSBC and Betfair among its users.
+Takeaway:
+ Yes, theres the whole Mike Lynch angle to this story thats been grabbing headlines, but whats way more interesting is the price tag on this deal and what it says about the compliance space. Featurespace is generating serious revenue, with an annual run rate of 50.4 million as of December 31, 2023, according to Traxcn. Even if theyve grown significantly since then, this deal could be happening at around a 10x revenue multiple—not bad, especially considering the company has raised 111 million in capital to date with all the usual caveats about the preference stack applying. I think part of the story here, and what well likely see in similar acquisitions, is that buyers are looking down the cost curve, anticipating that generative AI will significantly reduce the cost of running these companies while also adding functionality that further bolsters revenue — and thus the bottom line. Now, lets see if this deal gets done. 
+
+Digital bank Chime debuts advance wage product ahead of anticipated IPO, Reuters
+
+The Rundown:
+Chime last week launched a new product called MyPay, allowing customers to access up to 500 of their wages before payday with no fees or interest.
+Takeaway:
+ EWA is becoming a thorny topic from a regulatory perspective in the U.S. With divergent views between state regulators and federal guidelines, the landscape is increasingly complex. The CFPBs relatively lenient stance contrasts with stricter state-level scrutiny e.g. California, creating a patchwork of regulations that EWA providers — like Chime — have to navigate carefully as they look to make this a standalone product 
+see this article for a solid breakdown of the issues. Chime must have some faith these issues will be ironed out or that they can navigate them, as this could be a big bet ahead of their much-discussed IPO. 
+
+CBA and BNY deliver near real-time cross-border payments, Finextra
+
+The Rundown:
+Commonwealth Bank of Australia CBA has partnered with BNY to provide near real-time cross-border payments, allowing recipients in Australia of BNY payments to access international funds in under a minute, 247.
+Takeaway:
+ Over the last few months, Ive highlighted the slow but increasingly fast march of faster local payments into new global markets. Notably PIX and the UPI. On the other hand, this is not all that exciting by comparison. But this is why Ive added it to this weeks news. For the most part, this is how banks have traditionally increased speed in cross-border settlement — piecemeal. This is precisely what PIX and UPI going cross border at the payment network level is disrupting. Its actually interesting or maybe comical that even payment networks are now out-innovating banks. Who would have thought? 
+
+Fast-growing immigrant-focused neobank Comun has secured 21.5M in new funding just months after its last raise, Techcrunch
+
+The Rundown:
+Comun, a digital bank aimed at serving immigrants in the U.S., has raised 21.5m in a Series A funding round, following a previous 4.5m raise just months earlier.
+Takeaway:
+ This has quickly become a super crowded space — as the article notes, many companies are chasing the immigrant fintech dollar, including Tanda, Bloom Money, Majority, Welcome Tech, Maza and Pillar. Undoubtedly, its a massive opportunity as many immigrants still struggle to set up banking in the US. It will be fascinating to see how this market evolves. My guess is that it will mirror the remittance space, with multiple operators vying for market share—some achieving scale while others remain hyper-focused on specific corridors or, in the case of neobanks, communities. 
+
+Workpay Secures 5M Series A to Boost Expansion of HR and Payroll Solutions Across Africa, Tech In Africa
+
+The Rundown:
+Workpay, a cloud-based HR and payroll platform for African businesses, has secured 5 million in Series A funding led by Norrsken22, with participation from investors including Visa and Y Combinator.
+Takeaway:
+ Its pretty wild that cloud HR is still seeing strong growth, even two decades after Workday came onto the scene. And with cloud adoption just hitting around 60 revenue share, theres still surprisingly plenty of room to run. So, its no shock that were seeing new players pop up in fast-growing markets like Africa. Workpay landing this funding shows theres still an appetite for companies in the segment. Im really curious to see who ends up being the Workday for Africa. The Ghost of Fintech Future: Fraud, UK Fintech Lessons, and Sardine Insights with Simon Taylor of Sardine, Fintech Layer Cake I keep recommending the Fintech Layer Cake podcast, but its just that good for fintech nerds. In this episode, Reggie sits down with Simon Taylor to chat about all things fintech, covering everything from fraud to lessons from the UK market. Its as insightful as youd expect. Definitely worth adding to your playlist! CB Insights Insurtech 50, CB Insights Everyone loves a list, and this is CB Insights insurtech 50 one. Its actually an interesting cross-section of the insurtech space. One thing that jumped out at me was the number of startups they have in the commercial insurance segment — which had the most significant number of companies. Its a white-hot space gaining momentum, and even the lists are taking notice."
