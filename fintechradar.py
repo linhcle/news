@@ -1,3 +1,4 @@
+import six
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
@@ -7,6 +8,8 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
+
+
 
 BASE_URL = "https://fintechradar.substack.com/archive?sort=new"
 
