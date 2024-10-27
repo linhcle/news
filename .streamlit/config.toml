@@ -4,4 +4,5 @@ backgroundColor = "#f0f0f5"
 secondaryBackgroundColor = "#e0e0e0"
 textColor = "#333333"
 font = "sans serif"
-
+[python]
+version = "3.11"
