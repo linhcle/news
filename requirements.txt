@@ -9,5 +9,6 @@ transformers
 streamlit
 pandas
 numpy
+playwright
 
 

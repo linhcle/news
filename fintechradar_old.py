@@ -129,3 +129,9 @@ def fetch_fintech_radar_articles():
             }
             all_issues_data.append(issue_data)
     return all_issues_data
+
+# Run the script
+if __name__ == "__main__":
+    articles = fetch_fintech_radar_articles()
+    for article in articles:
+        print(article)
