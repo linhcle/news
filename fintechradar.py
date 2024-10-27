@@ -13,7 +13,8 @@ def scrape_substack():
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
         page = browser.new_page()
-        
+        print(page.evaluate("() => navigator.userAgent"))
+
         # Open the Substack page
         url = "https://fintechradar.substack.com"
         page.goto(url)
