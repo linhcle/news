@@ -1,13 +1,12 @@
-selenium==4.25.0
-webdriver-manager==4.0.2
-requests==2.32.3
-beautifulsoup4==4.12.3
-bs4==0.0.2
-feedparser==6.0.11
-streamlit==1.39.0
-sentence-transformers==3.2.1
-transformers==4.45.2
-streamlit==1.39.0
-pandas==1.5.3
-numpy==1.24.3
+selenium
+webdriver-manager
+requests
+beautifulsoup4
+bs4
+feedparser
+sentence-transformers
+transformers
+streamlit
+pandas
+numpy
 
