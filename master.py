@@ -7,9 +7,6 @@ from fintechradar import fetch_fintech_radar_articles
 from llm import small_summary
 import requests
 import re 
-import time
-
-
 
 # RSS Feeds for Different Outlets
 rss_feeds = {
@@ -204,29 +201,14 @@ def display_articles(outlet_name, feed_urls):
                 st.write(f"**Summary:** {entry.summary}")
                 st.write(f"**Article Type:** {entry.get('wsj_articletype', 'N/A')}")
                 headers = {
-                    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
-                    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-                    'Accept-Language': 'en-US,en;q=0.5',
-                    'Referer': 'https://www.google.com/',
-                    'DNT': '1',
-                    'Connection': 'keep-alive',
-                    'Upgrade-Insecure-Requests': '1',
+                    'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36',
+                    'Referer': 'https://www.wsj.com/',
+                    'Accept-Language': 'en-US,en;q=0.9',
                 }
                 response = requests.get(entry.link, cookies=cookies_dict, headers=headers)
-                time.sleep(2)
                 soup = BeautifulSoup(response.content, 'html.parser')
-
-                # # Step 3: Inject cookies into the Selenium session
-                # driver.get("https://www.wsj.com/")  # Load the site once to set domain
-
-                # for name, value in cookies_dict.items():
-                #     cookie = {'name': name, 'value': value, 'domain': 'wsj.com'}
-                #     driver.add_cookie(cookie)
-
-                # # Step 4: Navigate to the article with cookies in place
-                # driver.get(entry.link)
-                # driver.quit()
                 paragraphs = soup.find_all('p')
+                
                 st.write("**Full Article Content:**")
                 content = []
                 stop_keywords = ["Copyright", "All Rights Reserved"]  # End signals

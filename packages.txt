@@ -1,1 +1,6 @@
 python3-distutils
+chromium
+chromium-driver
+fonts-liberation
+libnss3
+libgconf-2-4
