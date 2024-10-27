@@ -1,6 +1,7 @@
 python3-distutils
-chromium=114.0.5735.90
-chromium-driver=114.0.5735.90
+chromium
+chromium-driver
 fonts-liberation
 libnss3
 libgconf-2-4
+libxss1
