@@ -5,23 +5,11 @@ from bs4 import BeautifulSoup
 from datetime import datetime, timedelta
 from fintechradar import fetch_fintech_radar_articles
 from llm import small_summary
-from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
-from webdriver_manager.chrome import ChromeDriverManager
 import requests
 import re 
 import time
 
 
-# Set up Selenium with Chrome
-options = webdriver.ChromeOptions()
-options.add_argument("--headless")  # Run in headless mode
-options.add_argument("--no-sandbox")
-options.add_argument("--disable-dev-shm-usage")
-
-# Start the WebDriver
-service = Service(ChromeDriverManager().install())
-driver = webdriver.Chrome(service=service, options=options)
 
 # RSS Feeds for Different Outlets
 rss_feeds = {
