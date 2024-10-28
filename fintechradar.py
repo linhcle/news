@@ -14,7 +14,8 @@ def scrape_substack():
         print("Launching Chromium...")
         browser = p.chromium.launch(
             headless=True,
-            executable_path="/home/appuser/.cache/ms-playwright/chromium-1140/chrome-linux/chrome"
+            # executable_path="/home/appuser/.cache/ms-playwright/chromium-1140/chrome-linux/chrome"
+            executable_path = "/Users/linhle/Library/Caches/ms-playwright/chromium-1140/chrome-mac/Chromium.app/Contents/MacOS/Chromium"
         )
         page = browser.new_page()
         # Open the Substack page

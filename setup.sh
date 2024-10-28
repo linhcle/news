@@ -1,10 +1,9 @@
 #!/bin/bash
 
-# Set Playwright to install browsers within the project directory
+# Set Playwright to install browsers in the project cache directory
 export PLAYWRIGHT_BROWSERS_PATH=/home/appuser/.cache/ms-playwright
 
-# Force install the specific version of Chromium you need
+# Install the required version of Chromium (replace with correct version if needed)
 npx playwright install chromium
-
-# Verify the browser installation
-ls -alh /home/appuser/.cache/ms-playwright/chromium-1140/
+# Verify the installation and directory structure
+# ls -alh /home/appuser/.cache/ms-playwright/
