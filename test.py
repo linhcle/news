@@ -19,7 +19,7 @@ def scrape_substack():
         with sync_playwright() as p:
             browser = p.chromium.launch(headless=True)  # Use headless mode
             page = browser.new_page()
-            page.goto("https://example.com")
+            page.goto("https://fintechradar.substack.com")
             print(page.title())  # For testing, replace with your scraping logic
             browser.close()
     except Exception as e:
