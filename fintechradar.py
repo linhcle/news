@@ -133,3 +133,6 @@ def fetch_fintech_radar_articles():
             }
             all_issues_data.append(issue_data)
     return all_issues_data
+
+if __name__ == "__main__":
+    fetch_fintech_radar_articles()  
