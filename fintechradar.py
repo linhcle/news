@@ -11,7 +11,11 @@ BASE_URL = "https://fintechradar.substack.com/archive?sort=new"
 def scrape_substack():
     links = []
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True)
+        print("Launching Chromium...")
+        browser = p.chromium.launch(
+            headless=True,
+            executable_path="/home/appuser/.cache/ms-playwright/chromium-1140/chrome-linux/chrome"
+        )
         page = browser.new_page()
         # Open the Substack page
         url = "https://fintechradar.substack.com"

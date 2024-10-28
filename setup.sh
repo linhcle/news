@@ -1,10 +1,10 @@
 #!/bin/bash
 
-# Set Playwright to install browsers within the container or the right path.
-export PLAYWRIGHT_BROWSERS_PATH=0
+# Set Playwright to install browsers within the project directory
+export PLAYWRIGHT_BROWSERS_PATH=/home/appuser/.cache/ms-playwright
 
-# Force reinstallation of the exact Chromium 1140 version
-npx playwright install chromium@114.0.5735.90
+# Force install the specific version of Chromium you need
+npx playwright install chromium
 
-# Verify that the correct version is installed
-ls -alh /root/.cache/ms-playwright/
+# Verify the browser installation
+ls -alh /home/appuser/.cache/ms-playwright/chromium-1140/
