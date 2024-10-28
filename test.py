@@ -5,7 +5,6 @@ import requests
 from bs4 import BeautifulSoup
 # Step 1: Configure environment variables for Playwright
 os.environ["PLAYWRIGHT_BROWSERS_PATH"] = "/home/appuser/.cache/ms-playwright"  # Ensure correct browser path
-
 # Step 2: Install Chromium if it’s not already installed
 def install_chromium():
     try:
@@ -15,16 +14,45 @@ def install_chromium():
         logging.error(f"Failed to install Chromium: {e}")
 
 # Step 3: Function to scrape using Playwright
+# def scrape_substack():
+    # try:
+    #     with sync_playwright() as p:
+    #         browser = p.chromium.launch(headless=True)  # Use headless mode
+    #         page = browser.new_page()
+    #         page.goto("https://fintechradar.substack.com")
+    #         print(page.title())  # For testing, replace with your scraping logic
+    #         browser.close()
+    # except Exception as e:
+    #     logging.error(f"Error launching Chromium: {e}")
 def scrape_substack():
-    try:
-        with sync_playwright() as p:
-            browser = p.chromium.launch(headless=True)  # Use headless mode
-            page = browser.new_page()
-            page.goto("https://fintechradar.substack.com")
-            print(page.title())  # For testing, replace with your scraping logic
-            browser.close()
-    except Exception as e:
-        logging.error(f"Error launching Chromium: {e}")
+    links = []
+    with sync_playwright() as p:
+        print("Launching Chromium...")
+        browser = p.chromium.launch(
+            headless=True,
+            # executable_path="/home/appuser/.cache/ms-playwright/chromium-1140/chrome-linux/chrome"
+            executable_path = "/Users/linhle/Library/Caches/ms-playwright/chromium-1140/chrome-mac/Chromium.app/Contents/MacOS/Chromium"
+        )
+        page = browser.new_page()
+        # Open the Substack page
+        url = "https://fintechradar.substack.com"
+        page.goto(url)
+        time.sleep(5)  # Wait for the page to fully load
+
+        # Find all post links using their anchor tag structure
+        posts = page.locator('a[data-testid="post-preview-title"]')
+
+        if posts.count() == 0:
+            print("No posts found on the page.")
+        else:
+            print("Recent posts:")
+            for i in range(posts.count()):
+                link = posts.nth(i).get_attribute("href")
+                print(link)
+                links.append(link)
+
+        browser.close()
+    return links
 
 def fetch_fintech_radar_articles():
     issue_links = scrape_substack()
