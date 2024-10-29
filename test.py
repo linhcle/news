@@ -1,17 +1,24 @@
 import os
 import logging
 from playwright.sync_api import sync_playwright
+import requests
+from bs4 import BeautifulSoup
 
 # Ensure Playwright uses the correct path and installs dependencies
 os.environ["PLAYWRIGHT_BROWSERS_PATH"] = "/home/appuser/.cache/ms-playwright"
 
 def install_chromium():
-    """Install Chromium for Playwright at runtime."""
+    """Install Chromium without root permissions."""
     try:
-        os.system("playwright install chromium --with-deps")
-        logging.info("Chromium installed successfully.")
+        # Use --with-deps to install dependencies and download the browser.
+        result = os.system("PLAYWRIGHT_BROWSERS_PATH=/home/appuser/.cache/ms-playwright playwright install chromium --with-deps")
+        if result != 0:
+            logging.error("Failed to install Chromium.")
+        else:
+            logging.info("Chromium installed successfully.")
     except Exception as e:
-        logging.error(f"Failed to install Chromium: {e}")
+        logging.error(f"Error during Chromium installation: {e}")
+
 
 def scrape_substack():
     """Scrape links from the Fintech Radar Substack page."""
@@ -19,7 +26,6 @@ def scrape_substack():
     try:
         with sync_playwright() as p:
             logging.info("Launching Chromium...")
-            # Do not specify executable_path; let Playwright handle it
             browser = p.chromium.launch(
                 headless=True,
                 args=["--no-sandbox", "--disable-setuid-sandbox"]
@@ -47,6 +53,7 @@ def scrape_substack():
         logging.error(f"Error launching Chromium or scraping data: {e}")
 
     return links
+
 
 def fetch_fintech_radar_articles():
     issue_links = scrape_substack()
