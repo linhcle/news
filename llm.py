@@ -56,24 +56,31 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 # Load the model (MiniLM)
 model = SentenceTransformer('all-mpnet-base-v2')
 
+import re
+from sentence_transformers import util
+
 def small_summary(article, top_n=2):
-    # Split the article into sentences
-    sentences = article.split('. ')
-    
+    # Use regex to split sentences more accurately
+    sentences = re.split(r'(?<=[.!?])\s+', article.strip())
+
     # Encode all sentences into embeddings
     sentence_embeddings = model.encode(sentences, convert_to_tensor=True)
-    
+
     # Calculate the mean embedding (to represent the entire article)
     article_embedding = sentence_embeddings.mean(dim=0)
-    
+
     # Use cosine similarity to rank sentences based on relevance to the whole article
     similarities = util.pytorch_cos_sim(article_embedding, sentence_embeddings)[0]
+
     # Ensure top_n does not exceed the number of available sentences
     top_n = min(top_n, len(sentences))
-    
+
     # Get the top N sentences with the highest similarity scores
-    top_sentences = [sentences[i] for i in similarities.topk(top_n).indices]
+    top_sentence_indices = similarities.topk(top_n).indices
+
+    # Sort the selected sentences by their original order in the article
+    top_sentences = [sentences[i] for i in sorted(top_sentence_indices)]
 
     # Join the sentences to form the summary
-    summary = '. '.join(top_sentences)
+    summary = ' '.join(top_sentences)
     return summary

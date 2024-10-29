@@ -36,7 +36,7 @@ keywords = [
     "venture capital", "debt", "interest rates", "inflation", 
     "monetary policy", "bank", "central bank", "credit", 
     "lending",  "technology", "artificial intelligence", 
-    "AI", "machine learning", "cloud computing", "blockchain", 
+    "AI", "cloud computing", "blockchain", 
     "fintech", "semiconductor", "chip", "processor", "microchip", 
     "Nvidia", "TSMC", "Intel", "ARM",
     "fed", "Federal Reserve", "central bank policy", "GDP", 
@@ -206,6 +206,7 @@ def display_articles(outlet_name, feed_urls):
                 st.subheader(entry.title)
                 st.write(f"**Summary:** {entry.summary}")
                 st.write(f"**Article Type:** {entry.get('wsj_articletype', 'N/A')}")
+                st.write(f"**Link to Article:** {entry.link}")
                 headers = {
                     'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36',
                     'Referer': 'https://www.wsj.com/',
