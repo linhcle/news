@@ -156,47 +156,7 @@ cookie_string = "DJSESSION=country%3Dus%7C%7Ccontinent%3Dna%7C%7Cregion%3D; ccpa
 # Convert the string to a dictionary
 cookies_dict = cookie_string_to_dict(cookie_string)
 
-def fetch_full_content(url, cookies_dict, headers):
-    with sync_playwright() as p:
-        # Launch Playwright browser in headless mode with proper flags
-        browser = p.chromium.launch(headless=True, args=["--no-sandbox"])
 
-        # Create a new browser context
-        context = browser.new_context(
-            viewport={"width": 1280, "height": 800},  # Optional: Set viewport size
-            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36"
-        )
-
-        # Convert the cookies_dict into a format Playwright can use
-        cookies = [
-            {
-                "name": key,
-                "value": value,
-                "domain": "www.wsj.com",  # Replace with the correct domain
-                "path": "/",
-            }
-            for key, value in cookies_dict.items()
-        ]
-        # Add cookies to the context
-        context.add_cookies(cookies)
-
-        # Create a new page with custom headers
-        page = context.new_page()
-        page.set_extra_http_headers(headers)
-
-        # Navigate to the page and wait for it to load completely
-        page.goto(url, wait_until="domcontentloaded", timeout=60000)
-
-        # Get the HTML content of the page
-        html = page.content()  # Full HTML content
-        browser.close()
-
-        # Use BeautifulSoup to parse the content
-        soup = BeautifulSoup(html, 'html.parser')
-        paragraphs = [p.get_text().strip() for p in soup.find_all('p')]
-
-        return paragraphs
-    
 def display_articles(outlet_name, feed_urls):
     st.title(f"{outlet_name}")
 
@@ -249,7 +209,6 @@ def display_articles(outlet_name, feed_urls):
                     'Referer': 'https://www.wsj.com/',
                     'Accept-Language': 'en-US,en;q=0.9',
                 }
-                
                 response = requests.get(entry.link, cookies=cookies_dict, headers=headers)
                 soup = BeautifulSoup(response.content, 'html.parser')
                 paragraphs = soup.find_all('p')
@@ -274,10 +233,8 @@ def display_articles(outlet_name, feed_urls):
                     st.write(text)
                  # Optional: Fetch full article content using requests and BeautifulSoup
                 if st.button(f"Show Summary - {entry.title}"):
-                    content = fetch_full_content(entry.link, cookies_dict, headers)
                     content_str = '\n'.join(content)
                     summary = small_summary(content_str)
-                    st.write(content_str)
                     st.write(summary)
     st.button("Back to Landing Page", on_click=reset_outlet)
 
