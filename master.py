@@ -8,6 +8,10 @@ from llm import small_summary
 import requests
 import re 
 from playwright.sync_api import Playwright, sync_playwright, TimeoutError
+import os
+
+
+os.system("playwright install chromium")
 
 # RSS Feeds for Different Outlets
 rss_feeds = {
