@@ -271,7 +271,7 @@ def display_articles(outlet_name, feed_urls):
                     if len(text) < 10:  # Skip very short paragraphs (like timestamps)
                         continue
                     content.append(text)
-                    st.write(text)
+                    # st.write(text)
                  # Optional: Fetch full article content using requests and BeautifulSoup
                 if st.button(f"Show Summary - {entry.title}"):
                     content = fetch_full_content(entry.link, cookies_dict, headers)
