@@ -1,3 +1,4 @@
+web: ./setup.sh && streamlit run your_script.py
 [theme]
 primaryColor = "#001f3f"
 backgroundColor = "#f0f0f5"
