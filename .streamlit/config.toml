@@ -1,4 +1,3 @@
-"web: bash setup.sh && streamlit run master.py"
 [theme]
 primaryColor = "#001f3f"
 backgroundColor = "#f0f0f5"
