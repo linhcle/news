@@ -7,6 +7,7 @@ from fintechradar import fetch_fintech_radar_articles
 from llm import small_summary
 import requests
 import re 
+from playwright.sync_api import Playwright, sync_playwright, TimeoutError
 
 # RSS Feeds for Different Outlets
 rss_feeds = {
@@ -162,7 +163,8 @@ def display_articles(outlet_name, feed_urls):
     start_date = today - timedelta(days=7)
 
     if outlet_name == "Fintech Radar":
-        issues = fetch_fintech_radar_articles()
+        with sync_playwright() as playwright:
+            issues = fetch_fintech_radar_articles(playwright)
         for issue in issues:
             # print(issue)
             stories = parse_article(issue['summary'])

@@ -113,6 +113,7 @@ def fetch_fintech_radar_articles():
         soup = BeautifulSoup(response.content, 'html.parser')
         content_div = soup.find('div', class_='body markup')
         content = content_div.get_text(separator='\n', strip=True) if content_div else 'No content found'
+        print("content",content)
         clean_text = clean_content(content)
         filtered_stories = filter_stories(clean_text)
 
@@ -133,5 +134,4 @@ def fetch_fintech_radar_articles():
 # Run the script
 if __name__ == "__main__":
     articles = fetch_fintech_radar_articles()
-    for article in articles:
-        print(article)
+    print(f"Fetched {len(articles)} articles.")
