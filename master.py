@@ -200,7 +200,7 @@ def display_articles(outlet_name, feed_urls):
                 st.write(f"**Published Date:** {entry.link}")
                 st.write(f"**Link to Article:** {entry.published}")
 
-    st.button("Back to Landing Page", on_click=reset_outlet)
+    st.button("Back to All News", on_click=reset_outlet)
 st.button("Back to Landing Page", on_click=reset_outlet)
 
 # Landing Page: Display buttons for each news outlet
