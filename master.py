@@ -275,10 +275,14 @@ def display_articles(outlet_name, feed_urls):
                  # Optional: Fetch full article content using requests and BeautifulSoup
                 if st.button(f"Show Summary - {entry.title}"):
                     content = fetch_full_content(entry.link, cookies_dict, headers)
-                    content_str = '\n'.join(content)
-                    summary = small_summary(content_str)
-                    st.write(content_str)
-                    st.write(summary)
+                    if content:
+                        st.write("Content fetched successfully!")
+                        content_str = '\n'.join(content)
+                        summary = small_summary(content_str)
+                        st.write(content_str)
+                        st.write(summary)
+                    else:
+                        st.write("Failed to fetch content.")
     st.button("Back to Landing Page", on_click=reset_outlet)
 
 
