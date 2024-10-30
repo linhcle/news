@@ -156,7 +156,48 @@ cookie_string = "DJSESSION=country%3Dus%7C%7Ccontinent%3Dna%7C%7Cregion%3D; ccpa
 # Convert the string to a dictionary
 cookies_dict = cookie_string_to_dict(cookie_string)
 
+def fetch_full_content(url, cookies_dict, headers):
+    with sync_playwright() as p:
+        # Launch Playwright browser in headless mode with proper flags
+        browser = p.chromium.launch(headless=False, args=["--no-sandbox"])
 
+        # Create a new browser context
+        context = browser.new_context(
+            viewport={"width": 1280, "height": 800},  # Optional: Set viewport size
+            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36"
+        )
+
+        # Convert the cookies_dict into a format Playwright can use
+        cookies = [
+            {
+                "name": key,
+                "value": value,
+                "domain": "www.wsj.com",  # Replace with the correct domain
+                "path": "/",
+            }
+            for key, value in cookies_dict.items()
+        ]
+        # Add cookies to the context
+        context.add_cookies(cookies)
+
+        # Create a new page with custom headers
+        page = context.new_page()
+        page.set_extra_http_headers(headers)
+
+        # Navigate to the page and wait for it to load completely
+        page.goto(url, wait_until="domcontentloaded", timeout=120000)
+        page.wait_for_timeout(120000)
+        page.screenshot(path="test_screenshot.png", full_page=True)
+        # Get the HTML content of the page
+        html = page.content()  # Full HTML content
+        # browser.close()
+
+        # Use BeautifulSoup to parse the content
+        soup = BeautifulSoup(html, 'html.parser')
+        paragraphs = [p.get_text().strip() for p in soup.find_all('p')]
+
+        return paragraphs
+    
 def display_articles(outlet_name, feed_urls):
     st.title(f"{outlet_name}")
 
