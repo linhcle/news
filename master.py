@@ -203,8 +203,8 @@ def display_articles(outlet_name, feed_urls):
                     'Referer': 'https://www.wsj.com/',
                     'Accept-Language': 'en-US,en;q=0.9',
                 }
-                st.button("Back to Landing Page", on_click=reset_outlet)
 
+st.button("Back to Landing Page", on_click=reset_outlet)
 
 # Landing Page: Display buttons for each news outlet
 if st.session_state.selected_outlet is None:
