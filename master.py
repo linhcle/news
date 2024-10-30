@@ -30,7 +30,7 @@ keywords = [
     "merge", "M&A", "acquisition", "takeover", "joint venture", 
     "divestiture", "merger agreement", "IPO", "public offering", 
     "capital raise", "supply chain", "manufacturing", 
-    "inventory", "output", "distribution", "operations", 
+    "distribution", "operations", 
     "finance", "funding", "investment", "private equity", 
     "venture capital", "debt", "interest rates", "inflation", 
     "monetary policy", "bank", "central bank", "credit", 
@@ -41,7 +41,7 @@ keywords = [
     "fed", "Federal Reserve", "central bank policy", "GDP", 
     "recession", "inflation report", "quantitative easing", 
     "quarter", "fiscal quarter", "earnings report", 
-    "guidance", "forecast", "valuation", "stock market", 
+    "forecast", "valuation", "stock market", 
     "bonds", "commodities", "exchange rates", "foreign exchange", 
     "real estate",
     "ESG", "sustainability"
@@ -201,6 +201,7 @@ def display_articles(outlet_name, feed_urls):
                 st.write(f"**Link to Article:** {entry.published}")
 
     st.button("Back to Landing Page", on_click=reset_outlet)
+st.button("Back to Landing Page", on_click=reset_outlet)
 
 # Landing Page: Display buttons for each news outlet
 if st.session_state.selected_outlet is None:
