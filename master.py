@@ -275,6 +275,7 @@ def display_articles(outlet_name, feed_urls):
                  # Optional: Fetch full article content using requests and BeautifulSoup
                 if st.button(f"Show Summary - {entry.title}"):
                     content = fetch_full_content(entry.link, cookies_dict, headers)
+                    print("content is",content)
                     if content:
                         st.write("Content fetched successfully!")
                         content_str = '\n'.join(content)
