@@ -197,14 +197,10 @@ def display_articles(outlet_name, feed_urls):
                 st.subheader(entry.title)
                 st.write(f"**Summary:** {entry.summary}")
                 st.write(f"**Article Type:** {entry.get('wsj_articletype', 'N/A')}")
-                st.write(f"**Link to Article:** {entry.link}")
-                headers = {
-                    'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36',
-                    'Referer': 'https://www.wsj.com/',
-                    'Accept-Language': 'en-US,en;q=0.9',
-                }
+                st.write(f"**Published Date:** {entry.link}")
+                st.write(f"**Link to Article:** {entry.published}")
 
-st.button("Back to Landing Page", on_click=reset_outlet)
+    st.button("Back to Landing Page", on_click=reset_outlet)
 
 # Landing Page: Display buttons for each news outlet
 if st.session_state.selected_outlet is None:
