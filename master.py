@@ -199,8 +199,8 @@ def display_articles(outlet_name, feed_urls):
                 st.subheader(entry.title)
                 st.write(f"**Summary:** {entry.summary}")
                 st.write(f"**Article Type:** {entry.get('wsj_articletype', 'N/A')}")
-                st.write(f"**Published Date:** {entry.link}")
-                st.write(f"**Link to Article:** {entry.published}")
+                st.write(f"**Published Date:** {entry.published}")
+                st.write(f"**Link to Article:** {entry.link}")
 
     st.button("Back to All News", on_click=reset_outlet)
 
