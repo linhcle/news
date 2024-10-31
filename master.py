@@ -158,6 +158,7 @@ def display_articles(outlet_name, feed_urls):
     start_date = today - timedelta(days=7)
 
     if outlet_name == "Fintech Radar":
+        st.button("Back to Landing Page", on_click=reset_outlet)
         with sync_playwright() as playwright:
             issues = fetch_fintech_radar_articles(playwright)
         for issue in issues:
@@ -189,6 +190,7 @@ def display_articles(outlet_name, feed_urls):
                     )
 
     else:
+        st.button("Back to Landing Page", on_click=reset_outlet)
         articles = fetch_and_merge_feeds(outlet_name, feed_urls)
         for entry in articles:
             if any(keyword.lower() in (entry['title'] + entry['summary']).lower() for keyword in keywords):
@@ -201,7 +203,6 @@ def display_articles(outlet_name, feed_urls):
                 st.write(f"**Link to Article:** {entry.published}")
 
     st.button("Back to All News", on_click=reset_outlet)
-st.button("Back to Landing Page", on_click=reset_outlet)
 
 # Landing Page: Display buttons for each news outlet
 if st.session_state.selected_outlet is None:
