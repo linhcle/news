@@ -22,7 +22,8 @@ rss_feeds = {
     "BBC News": ["http://feeds.bbci.co.uk/news/rss.xml?edition=us"],
     "FactSet": ["https://investor.factset.com/rss/news-releases.xml",
                 "https://investor.factset.com/rss/sec-filings.xml",
-                "https://investor.factset.com/rss/events.xml"],
+                # "https://investor.factset.com/rss/events.xml"
+                ],
 }
 
 # Add Fintech Radar as a new option
@@ -196,21 +197,14 @@ def display_articles(outlet_name, feed_urls):
     else:
         st.button("Back to Landing Page", on_click=reset_outlet)
         articles = fetch_and_merge_feeds(outlet_name, feed_urls)
-        if outlet_name != "FactSet":
-            for entry in articles:
-                if any(keyword.lower() in (entry['title'] + entry['summary']).lower() for keyword in keywords):
-                    # if start_date <= entry['published'] <= today:
-                    # Display article details in Streamlit
-                    st.subheader(entry.title)
-                    st.write(f"**Summary:** {entry.summary}")
-                    st.write(f"**Article Type:** {entry.get('wsj_articletype', 'N/A')}")
-                    st.write(f"**Published Date:** {entry.published}")
-                    st.write(f"**Link to Article:** {entry.link}")
-        else:
-            for entry in articles:
-                st.subheader(entry['title'])
-                st.write(f'**Summary** {entry.summary}')
-                st.write(f"**Published Date:** {entry.pubDate}")
+        for entry in articles:
+            if any(keyword.lower() in (entry['title'] + entry['summary']).lower() for keyword in keywords):
+                # if start_date <= entry['published'] <= today:
+                # Display article details in Streamlit
+                st.subheader(entry.title)
+                st.write(f"**Summary:** {entry.summary}")
+                st.write(f"**Article Type:** {entry.get('wsj_articletype', 'N/A')}")
+                st.write(f"**Published Date:** {entry.published}")
                 st.write(f"**Link to Article:** {entry.link}")
     st.button("Back to All News", on_click=reset_outlet)
 
