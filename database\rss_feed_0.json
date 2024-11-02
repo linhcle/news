@@ -1,0 +1,125 @@
+{
+    "rss": {
+        "@xmlns:dc": "http://purl.org/dc/elements/1.1/",
+        "@version": "2.0",
+        "@xml:base": "https://investor.factset.com/",
+        "channel": {
+            "title": "FactSet News Releases",
+            "link": "https://investor.factset.com/",
+            "description": "FactSet News Releases",
+            "language": "en",
+            "item": [
+                {
+                    "title": "FactSet to Acquire Irwin",
+                    "link": "https://investor.factset.com/news-releases/news-release-details/factset-acquire-irwin",
+                    "description": "Integrating investor engagement into FactSet\u2019s research workflows for an end-to-end IR solution NORWALK, Conn. , Oct. 28, 2024 (GLOBE NEWSWIRE) -- FactSet (NYSE: FDS | NASDAQ: FDS), a global financial digital platform and enterprise solutions provider, today announced it has agreed to acquire",
+                    "pubDate": "Mon, 28 Oct 2024 16:30:00 -0400",
+                    "dc:creator": "FactSet News Releases",
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "17776"
+                    }
+                },
+                {
+                    "title": "FactSet\u2019s GHG Emissions Commitment Validated by Science Based Targets Initiative",
+                    "link": "https://investor.factset.com/news-releases/news-release-details/factsets-ghg-emissions-commitment-validated-science-based",
+                    "description": "NORWALK, Conn. , Sept. 25, 2024 (GLOBE NEWSWIRE) -- FactSet, a global financial digital platform and enterprise solutions provider, today announced that the Science Based Targets initiative (SBTi) has validated its near-term, company-wide sustainability initiative to reduce greenhouse gas (GHG)",
+                    "pubDate": "Wed, 25 Sep 2024 08:00:00 -0400",
+                    "dc:creator": "FactSet News Releases",
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "17696"
+                    }
+                },
+                {
+                    "title": "FactSet Reports Results for Fourth Quarter 2024",
+                    "link": "https://investor.factset.com/news-releases/news-release-details/factset-reports-results-fourth-quarter-2024",
+                    "description": "Q4 GAAP revenues of $562.2 million , up 4.9% from Q4 2023. Organic Q4 ASV plus professional services of $2,272.8 million , up 4.8% year over year. Q4 GAAP operating margin of 22.7%, up approximately 110 bps year over year, and adjusted operating margin of 35.8%, up 240 bps from the prior year.",
+                    "pubDate": "Thu, 19 Sep 2024 07:00:00 -0400",
+                    "dc:creator": "FactSet News Releases",
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "17691"
+                    }
+                },
+                {
+                    "title": "FactSet Announces Investor Day 2024",
+                    "link": "https://investor.factset.com/news-releases/news-release-details/factset-announces-investor-day-2024",
+                    "description": "NORWALK, Conn. , Sept. 16, 2024 (GLOBE NEWSWIRE) -- FactSet &nbsp;(NYSE: FDS | NASDAQ: FDS), a global financial digital platform and enterprise solutions provider, today announced that it will host an Investor Day on Thursday, November 14, 2024 , from 8:00 a.m. to 2:00 p.m. EST .",
+                    "pubDate": "Mon, 16 Sep 2024 08:00:00 -0400",
+                    "dc:creator": "FactSet News Releases",
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "17636"
+                    }
+                },
+                {
+                    "title": "FactSet Schedules Fourth Quarter 2024 Earnings Call",
+                    "link": "https://investor.factset.com/news-releases/news-release-details/factset-schedules-fourth-quarter-2024-earnings-call",
+                    "description": "NORWALK, Conn. , Aug. 28, 2024 (GLOBE NEWSWIRE) -- FactSet &nbsp;(NYSE: FDS | NASDAQ: FDS), a global financial digital platform and enterprise solutions provider, announced today that it will release its financial and operating results for the fourth quarter fiscal 2024, ending August 31, 2024 , on",
+                    "pubDate": "Wed, 28 Aug 2024 07:00:00 -0400",
+                    "dc:creator": "FactSet News Releases",
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "17611"
+                    }
+                },
+                {
+                    "title": "FactSet Names Kristina Karnovsky as Head of the Dealmakers and Wealth Group",
+                    "link": "https://investor.factset.com/news-releases/news-release-details/factset-names-kristina-karnovsky-head-dealmakers-and-wealth",
+                    "description": "NORWALK, Conn. , Aug. 05, 2024 (GLOBE NEWSWIRE) -- FactSet (\u201cFactSet\u201d or the \u201cCompany\u201d) (NYSE:FDS) (NASDAQ:FDS), a global financial digital platform and enterprise solutions provider, today announced that\u202fKristina Karnovsky, a veteran FactSet executive who currently serves as Executive Vice",
+                    "pubDate": "Mon, 05 Aug 2024 11:30:00 -0400",
+                    "dc:creator": "FactSet News Releases",
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "17601"
+                    }
+                },
+                {
+                    "title": "FactSet Declares Dividend",
+                    "link": "https://investor.factset.com/news-releases/news-release-details/factset-declares-dividend-23",
+                    "description": "NORWALK, Conn. , Aug. 05, 2024 (GLOBE NEWSWIRE) -- FactSet &nbsp;(NYSE: FDS | NASDAQ: FDS), a global financial digital platform and enterprise solutions provider, today announced that its Board of Directors approved a regular quarterly cash dividend of $1.04 per share.",
+                    "pubDate": "Mon, 05 Aug 2024 07:00:00 -0400",
+                    "dc:creator": "FactSet News Releases",
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "17596"
+                    }
+                },
+                {
+                    "title": "FactSet Appoints Helen Shan as Chief Financial Officer",
+                    "link": "https://investor.factset.com/news-releases/news-release-details/factset-appoints-helen-shan-chief-financial-officer",
+                    "description": "Current FactSet Executive Goran Skoko to Take on Role of Chief Revenue Officer Company Reaffirms Full-Year Fiscal 2024 Guidance NORWALK, Conn. , July 23, 2024 (GLOBE NEWSWIRE) -- FactSet (\u201cFactSet\u201d or the \u201cCompany\u201d) (NYSE:FDS) (NASDAQ:FDS), a global financial digital platform and enterprise",
+                    "pubDate": "Tue, 23 Jul 2024 08:30:00 -0400",
+                    "dc:creator": "FactSet News Releases",
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "17566"
+                    }
+                },
+                {
+                    "title": "FactSet Reports Results for Third Quarter 2024",
+                    "link": "https://investor.factset.com/news-releases/news-release-details/factset-reports-results-third-quarter-2024",
+                    "description": "Q3 GAAP revenues of $552.7 million , up 4.3% from Q3 2023. Organic Q3 ASV plus professional services of $2,220.4 million , up 5.0% year over year. Q3 GAAP operating margin of 36.6%, up approximately 420 bps year over year, and adjusted operating margin of 39.4%, up 340 bps from the prior year.",
+                    "pubDate": "Fri, 21 Jun 2024 07:00:00 -0400",
+                    "dc:creator": "FactSet News Releases",
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "17521"
+                    }
+                },
+                {
+                    "title": "FactSet Schedules Third Quarter 2024 Earnings Call",
+                    "link": "https://investor.factset.com/news-releases/news-release-details/factset-schedules-third-quarter-2024-earnings-call",
+                    "description": "NORWALK, Conn. , May 28, 2024 (GLOBE NEWSWIRE) -- FactSet (NYSE: FDS | NASDAQ: FDS), a global financial digital platform and enterprise solutions provider, announced today that it will release its financial and operating results for the third quarter fiscal 2024, ending May 31, 2024 on Friday, June",
+                    "pubDate": "Tue, 28 May 2024 07:00:00 -0400",
+                    "dc:creator": "FactSet News Releases",
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "17491"
+                    }
+                }
+            ]
+        }
+    }
+}
